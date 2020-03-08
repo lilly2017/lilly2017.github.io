@@ -126,6 +126,7 @@ margin: 0;
     height: 300px;
     width: 90%;
     margin-top: 60px;
+    padding: 0px 20px;
 }
 #swiper-two .swiper-slide{
     font-size: 14px;
@@ -200,5 +201,7 @@ margin: 0;
     }
     .resume-five ul li{
         list-style-position: inside;
+        text-align: center;
+    list-style-type: none;
     }
 }

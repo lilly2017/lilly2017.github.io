@@ -1,1 +1,47 @@
-<p>hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lily's resume</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">  
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
+<link rel="stylesheet" href="./css/styles.css">
+<script src="https://unpkg.com/swiper/js/swiper.js"> </script>  
+<script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+</head>
+<body>
+    <div class="resume">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="resume-one">
+                    <h1>孙莉涵</h1>
+                    <hr/>
+                    <p>WEB前端 • 4年工作经验 • 1277594246@qq.com</p>
+                  </div>
+              </div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+</body>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+　　direction: 'vertical',//设置竖屏  横屏类似轮播图是默认效果可以不设置
+//autoplay: true,
+mousewheel: true,
+　　//slidesPerView: 'auto',//设置slider容器能够同时显示的slides数量,'auto'则自动根据slides的宽度来设定数量。
+　　//centeredSlides: true,//设定为true时，活动块会居中，而不是默认状态下的居左。
+　　//这里是为了显示分页器，前提是html中已经设置了分页器
+　　pagination: {
+　　　　el: '.swiper-pagination',
+　　　　type: 'bullets',
+　　},
+});
+    </script>
+</html>

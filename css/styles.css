@@ -42,11 +42,14 @@ margin: 0;
  /* left: 50%; */
   }
   .resume-avatar{
-      width: 66px;
+      width: 86px;
       height: 66px;
       border-radius: 50%;
       border:1px solid #fff;
-      margin-bottom: 20px;
+      margin:0px auto 20px;
+      background-image: url(../img/71583708334_.pic.jpg);
+      background-position: top center;
+      background-size: cover;
   }
   /* .resume-one hr{
     width: 50px;
